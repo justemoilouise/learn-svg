@@ -1,0 +1,40 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+      .rectangle {
+        fill: lavender;
+        cursor: pointer;
+      }
+
+      .rectangle:hover {
+        fill: palevioletred;
+      }
+    </style>
+  </defs>
+  <rect x="240" y="20" width="96" height="200" class="rectangle" />
+  <path
+    d="M 10 100 q 40 -60 80 0 t 80 0"
+    fill="transparent"
+    stroke="slategray"
+    stroke-width="4"
+    stroke-linecap="round"
+    stroke-dasharray="5,15"
+  />
+  <path
+    d="M 10 200 l 65 15 l 44 120 l -72 18 Z"
+    stroke="darkgreen"
+    stroke-width="3"
+    stroke-linecap="butt"
+    stroke-dasharray="4,8"
+    fill="darkgray"
+  />
+  <path
+    d="M 24 200 l 24 50 l 92 -64 z"
+    stroke="cyan"
+    stroke-width="3"
+    stroke-linejoin="round"
+    stroke-opacity="0.8"
+    fill="cyan"
+    fill-opacity="0.4"
+  />
+</svg>

@@ -1,0 +1,10 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <path fill="darkslateblue" stroke="darkslateblue" stroke-width="2" d="M 10 150 Q 90 0 170 150" />
+  <path fill="transparent" stroke="slateblue" stroke-width="2" d="M 60 150 Q 150 25 240 150" />
+
+  <!-- Using relative paths -->
+  <path fill="transparent" stroke="darkslateblue" stroke-width="2" d="M 10 160 q 30 50 80 0" />
+
+  <!-- Multiple quadratic Bezier curve -->
+  <path fill="transparent" stroke="slategray" stroke-width="2" d="M 10 240 q 40 -60 80 0 t 80 0 q 20 -80 40 -20" />
+</svg>
