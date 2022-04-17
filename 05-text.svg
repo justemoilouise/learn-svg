@@ -1,0 +1,19 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <text x="20" y="50" dominant-baseline="middle" font-size="32">
+    <tspan rotate="-15">
+      Hello
+    </tspan>
+    <tspan y="70,60,50,40,30" dx="0,8,8,8,8" font-weight="800">
+      world
+    </tspan>
+    <tspan y="50" font-weight="normal" fill="red">!</tspan>
+  </text>
+
+  <!-- Text that follows a path -->
+  <path id="curveTextPath" fill="cyan" d="M 10 240 q 40 -60 80 0 t 80 0 q 20 -80 40 -20" />
+  <text dominant-baseline="middle" font-size="24" letter-spacing="0.25em" fill="cornflowerblue">
+    <textPath xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#curveTextPath">
+      Into the unknown
+    </textPath>
+  </text>
+</svg>
