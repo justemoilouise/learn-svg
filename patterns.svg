@@ -1,0 +1,38 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+      .rectangleOutline {
+        stroke: #000;
+        stroke-width: 1;
+        fill: #FFF;
+      }
+      .rectangleFill {
+        fill: url(#patternSample);
+      }
+      .rectangleBorder {
+        fill: slateblue;
+      }
+    </style>
+    <pattern id="patternSample" x="0" y="0" width="0.2" height="0.2">
+      <rect x="0" y="0" width="100%" height="100%" class="rectangleOutline" />
+      <line x1="10" y1="0" x2="10" y2="100%" stroke="darkgray" stroke-width="1" />
+      <line x1="20" y1="0" x2="20" y2="100%" stroke="darkgray" stroke-width="1" />
+      <rect x="40" y="0" width="25" height="100%" fill="lightgray" fill-opacity="0.75" />
+      <rect x="0" y="40" width="100%" height="25" fill="cyan" fill-opacity="0.75" />
+    </pattern>
+  </defs>
+  <rect
+    x="0"
+    y="0"
+    width="100%"
+    height="100%"
+    class="rectangleOutline rectangleBorder"
+  />
+  <rect
+    x="30"
+    y="30"
+    width="440"
+    height="440"
+    class="rectangleOutline rectangleFill"
+  />
+</svg>
